@@ -8,22 +8,60 @@
 
 /* Begin PBXBuildFile section */
 		8F3AB08B26B3E9A300A65125 /* Doctor_Appointment_MoveoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F3AB08A26B3E9A300A65125 /* Doctor_Appointment_MoveoApp.swift */; };
-		8F3AB08D26B3E9A300A65125 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F3AB08C26B3E9A300A65125 /* ContentView.swift */; };
 		8F3AB08F26B3E9A400A65125 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F3AB08E26B3E9A400A65125 /* Assets.xcassets */; };
 		8F3AB09226B3E9A400A65125 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F3AB09126B3E9A400A65125 /* Preview Assets.xcassets */; };
 		8F3AB09426B3E9A400A65125 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F3AB09326B3E9A400A65125 /* Persistence.swift */; };
 		8F3AB09726B3E9A400A65125 /* Doctor_Appointment_Moveo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8F3AB09526B3E9A400A65125 /* Doctor_Appointment_Moveo.xcdatamodeld */; };
+		8F3AB09F26B3EAE800A65125 /* Patient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F3AB09E26B3EAE800A65125 /* Patient.swift */; };
+		8F3AB0A426B3F08800A65125 /* Doctor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F3AB0A326B3F08800A65125 /* Doctor.swift */; };
+		8F3AB0A626B3F0A300A65125 /* Appointment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F3AB0A526B3F0A300A65125 /* Appointment.swift */; };
+		8F3AB0A826B40B7F00A65125 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F3AB0A726B40B7F00A65125 /* WelcomeView.swift */; };
+		8F3AB0AA26B40BE300A65125 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F3AB0A926B40BE300A65125 /* AppDelegate.swift */; };
+		8F3AB0AE26B40E5C00A65125 /* Database.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F3AB0AD26B40E5C00A65125 /* Database.swift */; };
+		8F3AB0B026B42DE300A65125 /* WelcomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F3AB0AF26B42DE300A65125 /* WelcomeViewModel.swift */; };
+		8F3AB0B226B435DC00A65125 /* UserType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F3AB0B126B435DC00A65125 /* UserType.swift */; };
+		8F3AB0B726B52BD500A65125 /* SignInForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F3AB0B626B52BD500A65125 /* SignInForm.swift */; };
+		8F3AB0B926B52BEF00A65125 /* SignUpForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F3AB0B826B52BEF00A65125 /* SignUpForm.swift */; };
+		8F3AB0BB26B5304F00A65125 /* PatientPortalViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F3AB0BA26B5304F00A65125 /* PatientPortalViewModel.swift */; };
+		8F3AB0BD26B5325C00A65125 /* PatientPortalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F3AB0BC26B5325C00A65125 /* PatientPortalView.swift */; };
+		8F3AB0BF26B53B6700A65125 /* DoctorPortalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F3AB0BE26B53B6700A65125 /* DoctorPortalView.swift */; };
+		8F3AB0C126B5416E00A65125 /* BookingList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F3AB0C026B5416E00A65125 /* BookingList.swift */; };
+		8F3AB0C326B547C100A65125 /* BookedAppointmentSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F3AB0C226B547C100A65125 /* BookedAppointmentSection.swift */; };
+		8F3AB0CB26B5793F00A65125 /* DoctorPortalViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F3AB0CA26B5793F00A65125 /* DoctorPortalViewModel.swift */; };
+		8F3AB0CD26B57CEE00A65125 /* DoctorCurrentAppointmentSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F3AB0CC26B57CEE00A65125 /* DoctorCurrentAppointmentSection.swift */; };
+		8F3AB0D026B57DF000A65125 /* DateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F3AB0CF26B57DF000A65125 /* DateExtension.swift */; };
+		8F3AB0D226B5808700A65125 /* DoctorWaitlistSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F3AB0D126B5808700A65125 /* DoctorWaitlistSection.swift */; };
+		8F3AB0D426B5A9FF00A65125 /* UserNotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F3AB0D326B5A9FF00A65125 /* UserNotificationService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8F3AB08726B3E9A300A65125 /* Doctor Appointment Moveo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Doctor Appointment Moveo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F3AB08A26B3E9A300A65125 /* Doctor_Appointment_MoveoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Doctor_Appointment_MoveoApp.swift; sourceTree = "<group>"; };
-		8F3AB08C26B3E9A300A65125 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8F3AB08E26B3E9A400A65125 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8F3AB09126B3E9A400A65125 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		8F3AB09326B3E9A400A65125 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		8F3AB09626B3E9A400A65125 /* Doctor_Appointment_Moveo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Doctor_Appointment_Moveo.xcdatamodel; sourceTree = "<group>"; };
 		8F3AB09826B3E9A400A65125 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F3AB09E26B3EAE800A65125 /* Patient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Patient.swift; sourceTree = "<group>"; };
+		8F3AB0A326B3F08800A65125 /* Doctor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Doctor.swift; sourceTree = "<group>"; };
+		8F3AB0A526B3F0A300A65125 /* Appointment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Appointment.swift; sourceTree = "<group>"; };
+		8F3AB0A726B40B7F00A65125 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		8F3AB0A926B40BE300A65125 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8F3AB0AD26B40E5C00A65125 /* Database.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Database.swift; sourceTree = "<group>"; };
+		8F3AB0AF26B42DE300A65125 /* WelcomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewModel.swift; sourceTree = "<group>"; };
+		8F3AB0B126B435DC00A65125 /* UserType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserType.swift; sourceTree = "<group>"; };
+		8F3AB0B626B52BD500A65125 /* SignInForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInForm.swift; sourceTree = "<group>"; };
+		8F3AB0B826B52BEF00A65125 /* SignUpForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpForm.swift; sourceTree = "<group>"; };
+		8F3AB0BA26B5304F00A65125 /* PatientPortalViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientPortalViewModel.swift; sourceTree = "<group>"; };
+		8F3AB0BC26B5325C00A65125 /* PatientPortalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientPortalView.swift; sourceTree = "<group>"; };
+		8F3AB0BE26B53B6700A65125 /* DoctorPortalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorPortalView.swift; sourceTree = "<group>"; };
+		8F3AB0C026B5416E00A65125 /* BookingList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingList.swift; sourceTree = "<group>"; };
+		8F3AB0C226B547C100A65125 /* BookedAppointmentSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookedAppointmentSection.swift; sourceTree = "<group>"; };
+		8F3AB0CA26B5793F00A65125 /* DoctorPortalViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorPortalViewModel.swift; sourceTree = "<group>"; };
+		8F3AB0CC26B57CEE00A65125 /* DoctorCurrentAppointmentSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorCurrentAppointmentSection.swift; sourceTree = "<group>"; };
+		8F3AB0CF26B57DF000A65125 /* DateExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateExtension.swift; sourceTree = "<group>"; };
+		8F3AB0D126B5808700A65125 /* DoctorWaitlistSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorWaitlistSection.swift; sourceTree = "<group>"; };
+		8F3AB0D326B5A9FF00A65125 /* UserNotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserNotificationService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +95,15 @@
 			isa = PBXGroup;
 			children = (
 				8F3AB08A26B3E9A300A65125 /* Doctor_Appointment_MoveoApp.swift */,
-				8F3AB08C26B3E9A300A65125 /* ContentView.swift */,
+				8F3AB0A926B40BE300A65125 /* AppDelegate.swift */,
+				8F3AB0AD26B40E5C00A65125 /* Database.swift */,
+				8F3AB0D326B5A9FF00A65125 /* UserNotificationService.swift */,
 				8F3AB08E26B3E9A400A65125 /* Assets.xcassets */,
 				8F3AB09326B3E9A400A65125 /* Persistence.swift */,
+				8F3AB0AC26B40CA800A65125 /* Views */,
+				8F3AB0AB26B40C7400A65125 /* ViewModels */,
+				8F3AB0A026B3F06200A65125 /* Model */,
+				8F3AB0CE26B57DD600A65125 /* Extensions */,
 				8F3AB09826B3E9A400A65125 /* Info.plist */,
 				8F3AB09526B3E9A400A65125 /* Doctor_Appointment_Moveo.xcdatamodeld */,
 				8F3AB09026B3E9A400A65125 /* Preview Content */,
@@ -73,6 +117,75 @@
 				8F3AB09126B3E9A400A65125 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8F3AB0A026B3F06200A65125 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8F3AB09E26B3EAE800A65125 /* Patient.swift */,
+				8F3AB0A326B3F08800A65125 /* Doctor.swift */,
+				8F3AB0B126B435DC00A65125 /* UserType.swift */,
+				8F3AB0A526B3F0A300A65125 /* Appointment.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8F3AB0AB26B40C7400A65125 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				8F3AB0AF26B42DE300A65125 /* WelcomeViewModel.swift */,
+				8F3AB0BA26B5304F00A65125 /* PatientPortalViewModel.swift */,
+				8F3AB0CA26B5793F00A65125 /* DoctorPortalViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		8F3AB0AC26B40CA800A65125 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8F3AB0C426B5562200A65125 /* Welcome Screen */,
+				8F3AB0C526B5563700A65125 /* Patient Screen */,
+				8F3AB0C626B5564500A65125 /* Doctor Screen */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8F3AB0C426B5562200A65125 /* Welcome Screen */ = {
+			isa = PBXGroup;
+			children = (
+				8F3AB0A726B40B7F00A65125 /* WelcomeView.swift */,
+				8F3AB0B626B52BD500A65125 /* SignInForm.swift */,
+				8F3AB0B826B52BEF00A65125 /* SignUpForm.swift */,
+			);
+			path = "Welcome Screen";
+			sourceTree = "<group>";
+		};
+		8F3AB0C526B5563700A65125 /* Patient Screen */ = {
+			isa = PBXGroup;
+			children = (
+				8F3AB0BC26B5325C00A65125 /* PatientPortalView.swift */,
+				8F3AB0C226B547C100A65125 /* BookedAppointmentSection.swift */,
+				8F3AB0C026B5416E00A65125 /* BookingList.swift */,
+			);
+			path = "Patient Screen";
+			sourceTree = "<group>";
+		};
+		8F3AB0C626B5564500A65125 /* Doctor Screen */ = {
+			isa = PBXGroup;
+			children = (
+				8F3AB0BE26B53B6700A65125 /* DoctorPortalView.swift */,
+				8F3AB0CC26B57CEE00A65125 /* DoctorCurrentAppointmentSection.swift */,
+				8F3AB0D126B5808700A65125 /* DoctorWaitlistSection.swift */,
+			);
+			path = "Doctor Screen";
+			sourceTree = "<group>";
+		};
+		8F3AB0CE26B57DD600A65125 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				8F3AB0CF26B57DF000A65125 /* DateExtension.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -144,10 +257,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F3AB0BB26B5304F00A65125 /* PatientPortalViewModel.swift in Sources */,
+				8F3AB0D026B57DF000A65125 /* DateExtension.swift in Sources */,
 				8F3AB09426B3E9A400A65125 /* Persistence.swift in Sources */,
-				8F3AB08D26B3E9A300A65125 /* ContentView.swift in Sources */,
+				8F3AB0B226B435DC00A65125 /* UserType.swift in Sources */,
+				8F3AB0B026B42DE300A65125 /* WelcomeViewModel.swift in Sources */,
+				8F3AB0CB26B5793F00A65125 /* DoctorPortalViewModel.swift in Sources */,
+				8F3AB0A626B3F0A300A65125 /* Appointment.swift in Sources */,
+				8F3AB0AA26B40BE300A65125 /* AppDelegate.swift in Sources */,
+				8F3AB0B926B52BEF00A65125 /* SignUpForm.swift in Sources */,
+				8F3AB0C326B547C100A65125 /* BookedAppointmentSection.swift in Sources */,
 				8F3AB08B26B3E9A300A65125 /* Doctor_Appointment_MoveoApp.swift in Sources */,
+				8F3AB0D226B5808700A65125 /* DoctorWaitlistSection.swift in Sources */,
 				8F3AB09726B3E9A400A65125 /* Doctor_Appointment_Moveo.xcdatamodeld in Sources */,
+				8F3AB0BF26B53B6700A65125 /* DoctorPortalView.swift in Sources */,
+				8F3AB0A826B40B7F00A65125 /* WelcomeView.swift in Sources */,
+				8F3AB0CD26B57CEE00A65125 /* DoctorCurrentAppointmentSection.swift in Sources */,
+				8F3AB0AE26B40E5C00A65125 /* Database.swift in Sources */,
+				8F3AB0D426B5A9FF00A65125 /* UserNotificationService.swift in Sources */,
+				8F3AB0C126B5416E00A65125 /* BookingList.swift in Sources */,
+				8F3AB0BD26B5325C00A65125 /* PatientPortalView.swift in Sources */,
+				8F3AB09F26B3EAE800A65125 /* Patient.swift in Sources */,
+				8F3AB0A426B3F08800A65125 /* Doctor.swift in Sources */,
+				8F3AB0B726B52BD500A65125 /* SignInForm.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

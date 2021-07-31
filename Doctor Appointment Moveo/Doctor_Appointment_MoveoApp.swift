@@ -9,12 +9,17 @@ import SwiftUI
 
 @main
 struct Doctor_Appointment_MoveoApp: App {
+    
+    // We need the AppDelegate so we can recieve notifications when the app is in the foreground
+    @UIApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
+    
     let persistenceController = PersistenceController.shared
-
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
-                .environment(\.managedObjectContext, persistenceController.container.viewContext)
+            WelcomeView(viewModel: WelcomeViewModel())
         }
     }
+    
+    
 }
